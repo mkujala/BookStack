@@ -3,5 +3,5 @@ services:
     name: bookstack
     env: docker
     plan: free
-    dockerComposePath: ./docker-compose.yml
+    dockerComposePath: docker-compose.yml
     branch: development
