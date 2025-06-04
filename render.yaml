@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: bookstack
+    env: docker
+    plan: free
+    dockerComposePath: ./docker-compose.yml
+    branch: development
